@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Form tags <button>Show menu</button> <a href="#">Show</a>
+    </h1>
+    <form action="">
+        <p>
+            <label for="username">Your name</label>
+            <input placeholder="Type here" type="text" id="username">
+        </p>
+        <p>
+            <label for="city">Your city</label>
+            <input  placeholder="min value 3 digigits" type="text" id="city">
+        </p>
+        <p>
+            <label for="userpassword">Your password</label>
+            <input type="password" id="userpassword">
+        </p>
+        <p>
+            <label for="usercolor">Your color</label>
+            <input type="color" id="userpassword">
+        </p>
+        <fieldset>
+            <legend>User data</legend>
+            <p>
+                <label for="usePet">Your use pet</label>
+                <input   disabled type="text" id="usePet">
+            </p>
+            <p>
+                <label for="usePetNickName">Your use pet usePet NickName</label>
+                <input  disabled type="text" id="usePetNickName">
+            </p>
+        </fieldset>
+        <p>
+            <label for="exp">Розкажіть про ваш досвід користування сайтом</label>
+            <!-- <input   placeholder="ext" type="text" id="exp"> -->
+            <textarea placeholder="message" id="exp" cols="10" rows="3"></textarea>
+        </p>
+        <p>
+            <select name="" id=""  multiple>
+                <option value="1">я вивчаяю Html</option>
+                <option value="2">я вивчаяю Css</option>
+                <option value="2">я вивчаяю js</option>
+                <option disabled value="3">я вивчаяю php</option>
+            </select>
+        </p>
+        <p>
+            <p>
+                <label for="orange">Orange</label>
+                <input  type="checkbox" id="orange">
+            </p>
+            <p>
+                <label for="banan">banan</label>
+                <input  type="checkbox" id="banan">
+            </p>
+            <p>
+                <label for="banan1">banan1</label>
+                <input  type="checkbox" id="banan1">
+            </p>
+            <p>
+                <label for="banan2">banan2</label>
+                <input  type="checkbox" id="banan2">
+            </p>
+        </p>
+        <p>
+            <h3>
+                Gender
+            </h3>
+            <div>
+                <label for="Male">Male</label>
+                <input name="gender"  type="radio" id="Male">
+            </div>
+            <div>
+                <label for="Female">Female</label>
+                <input name="gender"  type="radio" id="Female">
+            </div>
+            <div>
+                <label for="Female2">Female2</label>
+                <input name="gender"  type="radio" id="Female2">
+            </div>
+        </p>
+        <button disabled type="submit">Submit data</button>
+        <button type="reset">Reset</button>
+    </form>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/3QYg-oITpGw" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+<br><br><br>
+    <h1>User information about</h1>
+    <table border="4" style="width: 100%;">
+        <thead>
+            <th colspan="2">
+                First name /
+
+                Last name
+            </th>
+            <th>
+                Age
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    First name Max
+                    /
+                    Last name 1
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First name Tom
+                </td>
+                <td>
+                    Last name 2
+                </td>
+                <td rowspan="2">
+                    26
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    First name Bob
+                </td>
+                <td>
+                    Last name 3
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+</body>
+</html>

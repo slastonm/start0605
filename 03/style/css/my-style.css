@@ -1,0 +1,25 @@
+h3{
+    /* color:white; */
+    background-color: black;
+    padding: 50px;
+}
+h3,h2,p{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+label{
+
+}
+/* p{
+    color: white;
+} */
+/* span{
+
+} */
+p span{
+    color:yellow;
+}
+p div span{
+    color:yellow;
+}
