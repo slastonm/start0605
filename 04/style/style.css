@@ -1,0 +1,46 @@
+
+div{
+    background-color: blue;
+}
+div p{
+    background-color: yellow;
+}
+div p span{
+    color:red;
+    font-size: 20px;
+}
+div p span{
+    color:green;
+    font-size: 40px;
+}
+#main-text{
+    background-color: tomato;
+}
+h3.h3-title{
+    color:orange;
+}
+
+.h3-title{
+    color:red;
+}
+
+a[href="https://example.org"]{
+    font-size: 30px;
+    color:red;
+}
+
+ul li:first-child{
+    background-color: limegreen;
+}
+ul li:last-child{
+    background-color: rgb(25, 96, 219);
+}
+ul li:nth-child(5){
+    background-color: rgb(219, 25, 119);
+}
+ul li:nth-child(3){
+    background-color: rgb(219, 25, 119);
+}
+*{
+    text-decoration: underline;
+}

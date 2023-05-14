@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+  font-family: 'Arial', 'Helvetica', sans-serif;  
+}
+.container{
+    width: 890px;
+    margin: 0 auto;
+}
+
+header{
+    /* background-color: #FAC960; */
+    background: #FAC960;
+    /* border-radius: 100px; */
+}
+button{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.left, .right{
+    display: inline-block;
+}
+.right{
+    width: 400px;
+    background-color: red;
+}
+.left{
+    width: 300px;
+    height: 100px;
+}
