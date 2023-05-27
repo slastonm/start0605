@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+.parallax{
+    padding-top: 200px;
+    min-height: 100%;
+    background-image: url("../img/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section {
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 300px;
+}
+header{
+    background-image: url('../img/avatar.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200px;
+    height: 200px;
+    padding-left: 250px;
+    color:white;
+    margin-bottom: 200px;
+}
+
+.facebook{
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    background-image: url('../img/sprite-icon-29.jpg');
+    background-position: 0px 0px;
+}
+.facebook:hover{
+    background-position: 0px -84px;
+}
+.facebook.disabled{
+    background-position: 0px -168px;
+}

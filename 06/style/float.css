@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: green;
+    /* overflow: hidden; */
+}
+.wrapper>div{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    margin-bottom: 10px;
+    /* float: left; */
+    float: right;
+}
+/* .wrapper div:first-child{
+    float: left;
+}
+.wrapper div:last-child{
+    float: right;
+} */
+/* clearfix */
+.clear::before,
+.clear::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-text img{
+    float: right;
+    display: inline-block;
+    margin: 130px;
+}
+.float-text p{
+    font-size: 30px;
+}

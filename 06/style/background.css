@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.user{
+    /* width: 1600px; */
+    height: 600px;
+    overflow: auto;
+    font-size: 55px;
+    color:white;
+    /* background-image: url("../img/avatar.png"),url("../img/1.webp");  */
+    /* background-image: url("../img/avatar.png"); */
+    background-image: url("../img/bg.jpeg");
+
+    /* background-repeat: repeat-x;  */
+    /* background-repeat: repeat-y;  */
+    background-repeat: no-repeat; 
+    /* background-position: top 150px left 150px; */
+    /* background-position: center bottom; */
+    background-color: yellow; 
+    /* padding-bottom: 512px; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-size: 200px 200px; */
+    background-attachment: fixed; 
+
+}
+.user:hover{
+    background-color: red;
+}
