@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    font-size: 10px;
+    margin: 0;
+    /* em */
+    /* rem */
+}
+h1{
+    /* font-size: 2.8em; */
+    font-size: 3rem;
+    margin: 0;
+}
+h3{
+    /* font-size: 2em; */
+    font-size: 2rem;
+    margin: 0;
+
+}
+p{
+    /* font-size: 1.6em; */
+    font-size: 1.5rem;
+
+}
+.container{
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    html,
+    body {
+        font-size: 16px;
+    }
+    /* h1{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
+    } */
+}
+@media screen and (min-width: 1200px) {
+    html,
+    body {
+        font-size: 20px;
+    }
+    /* h1{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
+    } */
+}
+
+section {
+    background-color: orange;
+    width: 70vw;
+    min-height: 100vh;
+}
+.custom{
+    font-size: 4vw;
+}
+.custom-text{
+    font-size: 2vw;
+}
+@media (max-width:700px){
+    .custom{
+        font-size: 24px;
+    }  
+}
+
+.section-yellow{
+    padding: 50px;
+}
+.section-yellow h1{
+    font-size: 2rem;
+}
+.section-yellow h1 a{
+    text-decoration: none;
+}
+.section-yellow h1 a:hover{
+    color: red;
+}
+

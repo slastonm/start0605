@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+section{
+    padding: 50px;
+    background-color: yellow;
+    h1{
+        margin: 0;
+        color:darkblue;
+        a{
+            text-decoration: none;
+            &:hover{
+                color: red;
+            }
+            &::after{
+                content: "!";
+            }
+            &:last-child{
+
+            }
+            &.active{
+                
+            }
+        }
+    }
+    &.black{
+        background-color: black;
+        color: white;
+
+    }
+}
+.black nav{
+    a{
+        color: red;
+        &.active{
+            color: yellow;
+        }
+        @media(max-width: 1200px){
+            color: blue;
+            &.active{
+                color: green;
+            }
+        }
+    }
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.my-avatar{
+    @extend .avatar;
+    border: 2px solid black;
+}
