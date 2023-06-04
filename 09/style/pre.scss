@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+$main-color:#333;
+$main_clolor:red;
+$main-color-section: blue;
+$section-padding-x:150px;
+$section-padding-y:110px;
+
+body {
+    margin: 0;
+}
+.btn{
+    padding: 10px 20px;
+    border: 1px solid red;
+    font-size: 14px;
+}
+
+.btn-alert{
+    @extend .btn;
+    background-color: red;
+    color:white;
+}
+.a{
+    padding: $section-padding-x $section-padding-y;
+    background-color: $main-color-section;
+    &:hover{
+        // background-color: darken($main-color-section, 20%);
+        // background-color: lighten($main-color-section, 20%);
+        background-color: desaturate($main-color-section, 70%);
+    }
+}
+section.b{
+    @extend .a;
+}
+
+@mixin blockMixin($size, $radius:0){
+    width: $size;
+    height: $size;
+    @if $radius != 0{
+        border-radius: $radius;
+    }
+}
+
+.flat-square{
+    @include blockMixin(100px,$radius:10px );
+}
+.raund-square{
+    @include blockMixin(50%);
+}
+

@@ -1,0 +1,28 @@
+:root{
+    --main-color:#333;
+    --font-size:10px;
+    --text-color:#949494;
+}
+html,
+body{
+    font-size: var(--font-size);
+    background-color: var(--main-color);
+}
+h1{
+    font-size: 3rem;
+    color: var(--text-color);
+}
+h2{
+    --text-color:red;
+    color: var(--text-color);
+}
+@media (max-width:1000px){
+    :root{
+        --main-color:yellow;
+        --font-size:20px;
+        --text-color:#181414;
+    }
+    h2{
+        --text-color:rgb(2, 128, 84);
+    }
+}
