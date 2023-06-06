@@ -6,8 +6,8 @@ body {
 }
 section{
     padding: 50px 0 500px;
-    min-height: 1500px; 
-    /* min-height: 100vh; */
+    /* min-height: 1500px;  */
+    min-height: 120vh;
     background-image: url('Background.png');
     background-size: cover;
     background-position: top center;
@@ -30,6 +30,10 @@ header{
     text-align: center;
 }
 @media screen and (max-width: 900px) {
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
     section{
         min-height: auto;
         padding: 50px 0 100px;
