@@ -1,59 +1,6 @@
 *{
     box-sizing: border-box;
 }
-:root{
-    --text-position:right;
-    /* --base-font-size:10px; */
-    --main-bg:yellow;
-    --secondary-bg:black;
-}
-body{
-    background: var(--main-bg);
-}
-body.test{
-    --main-bg:red;
-
-}
-.text-center{
-    text-align: center;
-}
-.block{
-    background-color: #444;
-}
-
-html, body{
-    font-size: 10px;
-}
-div{
-    text-align: var(--text-position);
-}
-p{
-    font-size: 1.5rem;
-    background-color: yellow;
-    color:black;
-}
-h1{
-    background-color: green;
-    color:black;
-}
-.dark p,
-.dark h1{
-    color:white;
-}
-/* .dark h1{
-    color: white;
-} */
-.form{
-    background: #000;
-    color: #000;
-    border: 1px solid #000;
-}
-.dark .form{
-    background: #000;
-    color: #000;
-    border: 1px solid #000;
-}
-
 .i-grid{
     display: inline-grid;
 }
@@ -109,7 +56,7 @@ h1{
     margin: 0 auto;
     border: 1px solid red;
     grid-template-columns: repeat(2, 300px);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows:20% 80% 20%;
     /* justify-content: center; */
     /* justify-content: end; */
     justify-content: space-between;

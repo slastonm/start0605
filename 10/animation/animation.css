@@ -1,0 +1,91 @@
+@keyframes example{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: yellow;
+    }
+}
+.example{
+    height: 100px;
+    background-color: green;
+    animation-name: example;
+    animation-duration: 20s;
+}
+@keyframes pro{
+    0%{
+        background-color: blue;
+        left: 100px;
+    }
+    20%{
+        background-color: rgb(255, 221, 0);
+        left: 200px;
+    }
+    50%{
+        background-color: rgb(236, 7, 87);
+        left: 300px;
+    }
+    90%{
+        background-color: rgb(12, 227, 101);
+        left: 100px;
+    }
+    100%{
+        background-color: blue;
+        left: 0;
+    }
+}
+.pro-example{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation-name: pro;
+    animation-duration: 20s;
+    /* animation-iteration-count: 3; */
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    /* animation-delay: 20s; */
+    transition: all 4s linear;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    
+}
+button{
+    padding: 50px;
+    width: 300px;
+    text-align: center;
+    background-color: yellow;
+    display: inline-block;
+    /* transition: width 2s, background-color 4s; */
+    transition: all 4s;
+    /* transition-delay: 4s; */
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-timing-function: linear;
+    animation-timing-function: ease;
+    animation-timing-function: ease-in; */
+
+
+
+}
+.test{
+    fill: black;
+}
+button:hover{
+    width: 200px;
+    background-color: black;
+    color:white;
+    scale:1.5;
+    /* transform: rotateZ(160deg); */
+    transform: skew(10deg, 10deg);
+    /* transform: translate(50px, 100px); */
+    
+
+}
+button:hover .test{
+    fill:red;
+}
+.row{
+    margin: 0;
+}
+.container.custom{
+    max-width: 1700px;
+}

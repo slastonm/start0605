@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        Object-Oriented CSS
+    </h3>
+    <nav>
+        <ul>
+            <li><a class="link-item" href="#"><span class="badge"></span></a></li>
+        </ul>
+    </nav>
+    <style>
+        .link-item {}
+        .badge{}
+    </style>
+    <h3>
+        Atomic CSS ( ACSS)
+    </h3>
+    <style>
+        .mb-sm { margin-bottom: 16px; }
+        .mb-lg { margin-bottom: 32px; }
+    </style>
+    <h3>
+        Block Element Modifier (BEM)
+    </h3>
+    <ul class="list__block">
+        <li class="list__block__item">
+            <a href="#" class="list__block_item_link"></a>
+        </li>
+    </ul>
+    <style>
+        /* nav .list-block .item .link span{
+            Для ВЕМ це не вірно
+        } */
+        .list__block{
+            margin: 0;
+        }
+        .list__block--inline{
+            display: inline-block;
+            margin: 0;
+        }
+        .list__block__item{
+            padding: 50px;
+        }
+        .list__block_item_link{
+            text-decoration: none;
+        }
+    </style>
+    <h3>
+        Scalable and Modular Architecture for CSS (SMACSS)
+    </h3>
+    <style>
+        button{
+            padding: 10px;
+            border: none;
+        }
+        button.is-disabled{
+            background-color: grey;
+            cursor: none;
+        }
+        button.active{
+            background-color: green;
+        }
+    </style>
+</body>
+</html>
