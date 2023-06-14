@@ -14,5 +14,15 @@
     .mobile-menu .nav-link {
         color:green;
     }    
+    .navbar-toggler .fa-bars{
+        display: none;
+    }
+    .navbar-toggler.collapsed .fa-bars{
+        display: block;
+    }
+    .navbar-toggler.collapsed .fa-xmark{
+        display: none;
+    }
+
 }
 
